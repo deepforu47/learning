@@ -1,2 +1,2 @@
-# learning
-Collection of learning material
+# Learning
+Collection of learning material like ppts, pdf etc
