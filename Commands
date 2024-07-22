@@ -1,0 +1,3 @@
+## Get status of the ADO agents 
+curl -s -u "test:PAT"  -X GET   -H "Content-Type: application/json" -L   https://dev.azure.com/{OrgName}/_apis/distributedtask/pools/{PoolID}/agents?api-version=7.1-preview.1 |   jq -C -r '(["Name","Status"] | (., map(length*"-"))), (.value.[] | [.name, .status]) | @tsv' |column -t -c '|'
+
