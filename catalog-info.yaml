@@ -18,4 +18,4 @@ spec:
   lifecycle: experimental
   owner: teama
   definition:
-    $text: ./petstore.yaml
+    $text: ./petstore.yml
