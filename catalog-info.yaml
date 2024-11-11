@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: learning
   annotations:
-    github.com/project-slug: deepforu47/learning
+    github.com/project-slug: ./swagger.json
 spec:
   type: other
   lifecycle: unknown
