@@ -1,10 +1,11 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: API
 metadata:
-  name: learning
-  annotations:
-    github.com/project-slug: ./swagger.json
+  name: sample
 spec:
-  type: other
-  lifecycle: unknown
+  type: grpc
+  lifecycle: experimental
   owner: guests
+  system: examples
+  definition:
+    $text: ./swagger.json
