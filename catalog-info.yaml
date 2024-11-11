@@ -1,24 +1,21 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: artist-api
-  description: Retrieve artist details
+  name: petstore
+  description: The petstore API
+  tags:
+    - store
+    - rest
+  links:
+    - url: https://github.com/swagger-api/swagger-petstore
+      title: GitHub Repo
+      icon: github
+    - url: https://github.com/swagger-api/swagger-petstore/blob/master/src/main/resources/openapi.yaml
+      title: API Spec
+      icon: code
 spec:
   type: openapi
-  lifecycle: production
-  owner: artist-relations-team
-  system: artist-engagement-portal
-  definition: |
-    openapi: "3.0.0"
-    info:
-      version: 1.0.0
-      title: Artist API
-      license:
-        name: MIT
-    servers:
-      - url: http://artist.spotify.net/v1
-    paths:
-      /artists:
-        get:
-          summary: List all artists
-    ...
+  lifecycle: experimental
+  owner: team-c
+  definition:
+    $text: ./petstore.oas.yaml
