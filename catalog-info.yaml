@@ -18,5 +18,5 @@ spec:
   lifecycle: experimental
   owner: teama
   definition:
-    $text: ./swagger.json
+    $text: https://github.com/deepforu47/learning/blob/master/swagger.json
 # $text: ./test.yaml
