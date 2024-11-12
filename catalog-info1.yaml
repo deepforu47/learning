@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: test2
+  description: The petstore API
+  tags:
+    - store
+    - rest
+  links:
+    - url: https://github.com/deepforu47/learning
+      title: GitHub Repo
+      icon: github
+    - url: https://github.com/deepforu47/learning/blob/master/petstore.yaml
+      title: API Spec
+      icon: code
+spec:
+  type: openapi
+  lifecycle: production
+  owner: teamb
+  definition:
+    $text: ./test.yaml
