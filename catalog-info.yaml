@@ -18,4 +18,5 @@ spec:
   lifecycle: experimental
   owner: teama
   definition:
-    $text: ./test.yaml
+    $text: ./swagger.json
+# $text: ./test.yaml
