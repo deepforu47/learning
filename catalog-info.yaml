@@ -19,4 +19,4 @@ spec:
   owner: teama
   definition:
     $text: https://app-account-transaction.modapp.tst.azcloud.osbgroup.co.uk/v3/api-docs
-# $text: ./test.yaml
+    $text: ./test.yaml
