@@ -18,5 +18,5 @@ spec:
   lifecycle: experimental
   owner: teama
   definition:
-    $text: https://github.com/deepforu47/learning/blob/master/swagger.json
+    $text: https://app-account-transaction.modapp.tst.azcloud.osbgroup.co.uk/v3/api-docs
 # $text: ./test.yaml
